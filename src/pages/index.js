@@ -29,11 +29,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>John Oncher</strong>
               <br />
-              Web developer
+              Full-Stack developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Here are my most recent projects.</p>
           </header>
 
           <footer>
