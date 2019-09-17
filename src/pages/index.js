@@ -162,7 +162,7 @@ const IndexPage = () => (
               <div className="col-6 col-12-mobile">
                 <input type="text" name="email" placeholder="Email" />
               </div>
-              <div className="col-12">
+              <div className="">
                 <textarea name="message" placeholder="Message" />
               </div>
               <div className="col-12">
