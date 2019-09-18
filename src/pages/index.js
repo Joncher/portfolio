@@ -88,13 +88,13 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            Full stack web developer with a background in logistics and
+            communication. I grew interested in JavaScript and coding and
+            decided to become a web developer when I discovered that they could
+            help me translate my creative skills into tangible solutions.
+            Committed and collaborative team player with strong communication
+            and interpersonal skills. Adaptable, result-driven individual with
+            an ability to handle high stress and complex environments.
           </p>
         </div>
       </section>
@@ -106,24 +106,32 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Feel free to reach out to me if you have any new opportunities or
+            free lance projects that
           </p>
 
-          <form method="post" action="#">
+          <form method="post" action="#" autoComplete="off">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  autocomplete="new-password"
+                />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  autocomplete="new-password"
+                />
               </div>
-              <div className="">
+              <div className="col-12">
                 <textarea name="message" placeholder="Message" />
               </div>
+
               <div className="col-12">
                 <input type="submit" value="Send Message" />
               </div>
