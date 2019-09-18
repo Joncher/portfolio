@@ -2,10 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
-import SideBar from '../components/SideBar';
+import SideBar from '../components/Sidebar/Sidebar.js';
 import ProjectCard from '../components/ProjectCard';
 
-import pccPic from '../assets/images/pcc.png';
+import pccPic from '../assets/images/PCC.png';
 import overtrackPic from '../assets/images/Overtrack.png';
 import bbbPic from '../assets/images/BBB.png';
 import simonggPic from '../assets/images/SimonGG.png';
