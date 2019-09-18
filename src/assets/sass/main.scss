@@ -327,8 +327,10 @@
 
 		&.featured {
 			display: block;
-			width: 100%;
+			width: 50%;
 			margin: 0 0 2em 0;
+			margin: auto;
+			margin-bottom: 3em
 		}
 
 		&.left {

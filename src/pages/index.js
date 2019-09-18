@@ -3,10 +3,13 @@ import React from 'react';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
+import ProjectCard from '../components/ProjectCard';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import pccPic from '../assets/images/pcc.png';
+import overtrackPic from '../assets/images/Overtrack.png';
+import bbbPic from '../assets/images/BBB.png';
+import simonggPic from '../assets/images/SimonGG.png';
+import profilePic from '../assets/images/profile_pic.png';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
@@ -61,58 +64,14 @@ const IndexPage = () => (
 
           <div className="row">
             <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
-                </a>
-                <header>
-                  <h3>Ipsum Feugiat</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
-                </a>
-                <header>
-                  <h3>Rhoncus Semper</h3>
-                </header>
-              </article>
+              <ProjectCard title="Counseling Center Website" pic={pccPic} />
             </div>
             <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
-                </a>
-                <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
-                </header>
-              </article>
+              <ProjectCard title="Overtrack" pic={overtrackPic} />
+              <ProjectCard title="Simon.GG" pic={simonggPic} />
             </div>
             <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
-                </a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic7} alt="" />
-                </a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article>
+              <ProjectCard title="Better Bookshelf Brand" pic={bbbPic} />
             </div>
           </div>
         </div>
@@ -125,7 +84,7 @@ const IndexPage = () => (
           </header>
 
           <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
+            <img src={profilePic} alt="" />
           </a>
 
           <p>
