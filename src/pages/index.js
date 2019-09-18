@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
-import SideBar from '../components/Sidebar/Sidebar.js';
+import SideBar from '../components/Sidebar/Bar.js';
 import ProjectCard from '../components/ProjectCard';
 
 import pccPic from '../assets/images/PCC.png';
@@ -10,10 +10,6 @@ import overtrackPic from '../assets/images/Overtrack.png';
 import bbbPic from '../assets/images/BBB.png';
 import simonggPic from '../assets/images/SimonGG.png';
 import profilePic from '../assets/images/profile_pic.png';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
