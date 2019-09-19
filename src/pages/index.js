@@ -13,6 +13,7 @@ import bbbPic from '../assets/images/BBB.png';
 import simonggPic from '../assets/images/SimonGG.png';
 import profilePic from '../assets/images/profile_pic.png';
 import Scroll from '../components/Scroll';
+import ProjectInfo from '../components/ProjectInfo';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -26,7 +27,7 @@ function IndexPage() {
   const [active, setActive] = useState('');
   function handleClick(props) {
     setIsOpen(!isOpen);
-    setActive(props.title);
+    setActive(<ProjectInfo props={props} />);
   }
   return (
     <Layout>
@@ -73,8 +74,16 @@ function IndexPage() {
               </Modal>
               <div className="col-4 col-12-mobile">
                 <ProjectCard
-                  title="Counseling Center Website"
+                  title="  Pastoral Counseling Center Website"
                   pic={pccPic}
+                  github={null}
+                  demo="https://pcc-test.netlify.com/"
+                  description="  A website made for a local non-profit counseling center in Flushing,New York"
+                  details={[
+                    'Built on GatsbyJS framework',
+                    "Built an email mailer using Ruby's Action Mailer",
+                    'Created using SCSS file to specifically apply CSS properties',
+                  ]}
                   onClick={e => handleClick(e)}
                 />
               </div>
