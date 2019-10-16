@@ -25,7 +25,7 @@ const sections = [
 function IndexPage() {
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState('');
-  function handleClick(props) {
+  function handleProjectClick(props) {
     setIsOpen(!isOpen);
     setActive(<ProjectInfo props={props} />);
   }
@@ -39,9 +39,8 @@ function IndexPage() {
             <header>
               <h2 className="alt">
                 Hi! I'm <strong>John Oncher</strong>
-                <br />
-                I'm a Full-Stack developer
               </h2>
+              <h2>I'm a Full Stack Developer using React and Rails</h2>
               <p>Here are my most recent projects.</p>
             </header>
 
@@ -82,7 +81,7 @@ function IndexPage() {
                     "Built an email mailer using Ruby's Action Mailer",
                     'Created using SCSS file to specifically apply CSS propert',
                   ]}
-                  onClick={e => handleClick(e)}
+                  onClick={e => handleProjectClick(e)}
                 />
               </div>
               <div className="col-4 col-12-mobile">
@@ -98,7 +97,7 @@ function IndexPage() {
                     'Utilized Auth JWT and React Router to limit access for authorized users',
                     'Built personalized charts with Charts.js that update over time as you record more games',
                   ]}
-                  onClick={e => handleClick(e)}
+                  onClick={e => handleProjectClick(e)}
                 />
                 <ProjectCard
                   title="Simon.GG"
@@ -111,7 +110,7 @@ function IndexPage() {
                     'Used the Riot Games API to return game data and stored data on a PostgreSQL database',
                     'Set up with RESTful Routes to navigate through our different view pages',
                   ]}
-                  onClick={e => handleClick(e)}
+                  onClick={e => handleProjectClick(e)}
                 />
               </div>
               <div className="col-4 col-12-mobile">
@@ -126,7 +125,7 @@ function IndexPage() {
                     'Ruby on Rails for the back-end and PostgreSQL for Database Management',
                     'Searched for books via Google Books API and saved selected books on Rails back-end',
                   ]}
-                  onClick={e => handleClick(e)}
+                  onClick={e => handleProjectClick(e)}
                 />
               </div>
             </div>
