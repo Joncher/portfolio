@@ -120,6 +120,14 @@ function IndexPage() {
                 <ProjectCard
                   title="Better Bookshelf Brand"
                   pic={bbbPic}
+                  github="https://github.com/Joncher/bbb-backend"
+                  demo="https://www.youtube.com/watch?v=n3rTvE74AdE&feature=youtu.be"
+                  description="An App that allows users to create an easily accessible virtual bookshelf"
+                  details={[
+                    'Built with vanilla JavaScript and Custom CSS to create a responsive Single Page Application',
+                    'Ruby on Rails for the back-end and PostgreSQL for Database Management',
+                    'Searched for books via Google Books API and saved selected books on Rails back-end',
+                  ]}
                   onClick={e => handleClick(e)}
                 />
               </div>
@@ -158,7 +166,7 @@ function IndexPage() {
 
             <p>
               Feel free to reach out to me if you have any new opportunities or
-              free lance projects that
+              free lance projects.
             </p>
 
             <form method="post" action="#" autoComplete="off">
