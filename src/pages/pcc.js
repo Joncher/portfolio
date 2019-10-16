@@ -5,7 +5,7 @@ const thing = {
   github: null,
   demo: 'https://pcc-test.netlify.com/',
   description:
-    'A website made for a local non-profit counseling center in Flushing,New York',
+    'A website made for a local non-profit counseling center in Flushing , New York',
   details: [
     'Built on GatsbyJS framework',
     "Built an email mailer using Ruby's Action Mailer",
@@ -13,14 +13,10 @@ const thing = {
   ],
 };
 
-function mapProps(thing) {
-  let result = [];
-  for (let item in thing) {
-    if (!item === true) {
-      result.push(<div>{item.key}</div>);
-    }
-  }
-  return result;
+function mapProps(obj) {
+  obj.values(item => {
+    return item;
+  });
 }
 
 const PccPage = () => (

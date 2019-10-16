@@ -82,7 +82,7 @@ function IndexPage() {
                   details={[
                     'Built on GatsbyJS framework',
                     "Built an email mailer using Ruby's Action Mailer",
-                    'Created using SCSS file to specifically apply CSS properties',
+                    'Created using SCSS file to specifically apply CSS propert',
                   ]}
                   onClick={e => handleClick(e)}
                 />
@@ -91,11 +91,28 @@ function IndexPage() {
                 <ProjectCard
                   title="Overtrack"
                   pic={overtrackPic}
+                  github="https://github.com/Joncher/overwatch_tracker"
+                  demo="https://www.youtube.com/watch?v=_sblH20usE8&feature=youtu.be"
+                  description="An App that allows users to keep track of Overwatch ranked games and gives match history and profile stats"
+                  details={[
+                    'Designed the front - end with React, Redux, Semantic-UI-React, and Custom CSS',
+                    'Ruby on Rails for the back-end and PostgreSQL for Database Management',
+                    'Utilized Auth JWT and React Router to limit access for authorized users',
+                    'Built personalized charts with Charts.js that update over time as you record more games',
+                  ]}
                   onClick={e => handleClick(e)}
                 />
                 <ProjectCard
                   title="Simon.GG"
                   pic={simonggPic}
+                  github="https://github.com/simk395/simon.gg"
+                  demo="https://www.youtube.com/watch?v=OXCf86YZcGw&feature=youtu.be"
+                  description="A Web App that allows League of Legends users to retrieve a match history given a username"
+                  details={[
+                    'Built using Ruby on Rails with an MVC file structure',
+                    'Used the Riot Games API to return game data and stored data on a PostgreSQL database',
+                    'Set up with RESTful Routes to navigate through our different view pages',
+                  ]}
                   onClick={e => handleClick(e)}
                 />
               </div>
