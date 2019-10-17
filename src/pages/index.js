@@ -79,7 +79,7 @@ function IndexPage() {
                   details={[
                     'Built on GatsbyJS framework',
                     "Built an email mailer using Ruby's Action Mailer",
-                    'Created using SCSS file to specifically apply CSS propert',
+                    'Created using SCSS file to specifically apply CSS property',
                   ]}
                   onClick={e => handleProjectClick(e)}
                 />
