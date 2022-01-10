@@ -177,8 +177,7 @@ function IndexPage() {
                   <textarea name="message" placeholder="Message" />
                 </div>
 
-                <input type="hidden" name="contact-form" value="contact">
-
+                <input type="hidden" name="contact-form" value="contact"/>
 
                 <div className="col-12">
                   <input type="submit" value="Send Message" />
