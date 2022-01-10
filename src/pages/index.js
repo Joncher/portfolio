@@ -117,7 +117,9 @@ function IndexPage() {
                 />
             </div>
           </div>
+          </div>
         </section>
+
 
         <section id="about" className="three">
           <div className="container">
