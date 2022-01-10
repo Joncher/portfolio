@@ -155,7 +155,7 @@ function IndexPage() {
               free lance projects.
             </p>
 
-            <form name="contact-form" data-netlify="true" method="POST"  enctype="application/x-www-form-urlencoded" action="/" autoComplete="off">
+            <form name="contact-form" netlify method="POST"  enctype="application/x-www-form-urlencoded" autoComplete="off">
             <input type="hidden" name="form-name" value="contact-form" />
               <div className="row">
                 <div className="col-6 col-12-mobile">
