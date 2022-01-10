@@ -155,7 +155,7 @@ function IndexPage() {
               free lance projects.
             </p>
 
-            <form name="contact" data-netlify="true" method="POST"  enctype="application/x-www-form-urlencoded" action="/" autoComplete="off">
+            <form name="contact-form" data-netlify="true" method="POST"  enctype="application/x-www-form-urlencoded" action="/" autoComplete="off">
               <div className="row">
                 <div className="col-6 col-12-mobile">
                   <input
@@ -176,6 +176,9 @@ function IndexPage() {
                 <div className="col-12">
                   <textarea name="message" placeholder="Message" />
                 </div>
+
+                <input type="hidden" name="contact-form" value="contact">
+
 
                 <div className="col-12">
                   <input type="submit" value="Send Message" />
