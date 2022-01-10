@@ -155,33 +155,9 @@ function IndexPage() {
               free lance projects.
             </p>
 
-            <form name="contact-form" netlify method="POST"  action="#" enctype="application/x-www-form-urlencoded" autoComplete="off">
-            <input type="hidden" name="form-name" value="contact-form" />
-              <div className="row">
-                <div className="col-6 col-12-mobile">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    autocomplete="new-password"
-                  />
-                </div>
-                <div className="col-6 col-12-mobile">
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Email"
-                    autocomplete="new-password"
-                  />
-                </div>
-                <div className="col-12">
-                  <textarea name="message" placeholder="Message" />
-                </div>
-                <div className="col-12">
-                  <input type="submit" value="Send Message" />
-                </div>
-              </div>
-            </form>
+            <p>
+              You can contact me by email at johnoncher@gmail.com
+            </p>
           </div>
         </section>
       </div>
