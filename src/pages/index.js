@@ -115,35 +115,6 @@ function IndexPage() {
                   ]}
                   onClick={e => handleProjectClick(e)}
                 />
-                <ProjectCard
-                  title="Simon.GG"
-                  pic={simonggPic}
-                  github="https://github.com/simk395/simon.gg"
-                  demo="https://www.youtube.com/watch?v=OXCf86YZcGw&feature=youtu.be"
-                  description="A Web App that allows League of Legends users to retrieve a match history given a username"
-                  details={[
-                    'Built using Ruby on Rails with an MVC file structure',
-                    'Used the Riot Games API to return game data and stored data on a PostgreSQL database',
-                    'Set up with RESTful Routes to navigate through our different view pages',
-                  ]}
-                  onClick={e => handleProjectClick(e)}
-                />
-              </div>
-              <div className="col-4 col-12-mobile">
-                <ProjectCard
-                  title="Better Bookshelf Brand"
-                  pic={bbbPic}
-                  github="https://github.com/Joncher/bbb-backend"
-                  demo="https://www.youtube.com/watch?v=n3rTvE74AdE&feature=youtu.be"
-                  description="An App that allows users to create an easily accessible virtual bookshelf"
-                  details={[
-                    'Built with vanilla JavaScript and Custom CSS to create a responsive Single Page Application',
-                    'Ruby on Rails for the back-end and PostgreSQL for Database Management',
-                    'Searched for books via Google Books API and saved selected books on Rails back-end',
-                  ]}
-                  onClick={e => handleProjectClick(e)}
-                />
-              </div>
             </div>
           </div>
         </section>
