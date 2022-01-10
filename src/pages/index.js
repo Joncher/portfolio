@@ -86,6 +86,21 @@ function IndexPage() {
               </div>
               <div className="col-4 col-12-mobile">
                 <ProjectCard
+                  title="  Pastoral Counseling Center Website"
+                  pic={pccPic}
+                  github={null}
+                  demo="https://pcc-test.netlify.com/"
+                  description="  A website made for a local non-profit counseling center in Flushing,New York"
+                  details={[
+                    'Built on GatsbyJS framework',
+                    "Built an email mailer using Ruby's Action Mailer",
+                    'Created using SCSS file to specifically apply CSS property',
+                  ]}
+                  onClick={e => handleProjectClick(e)}
+                />
+              </div>
+              <div className="col-4 col-12-mobile">
+                <ProjectCard
                   title="Overtrack"
                   pic={overtrackPic}
                   github="https://github.com/Joncher/overwatch_tracker"
