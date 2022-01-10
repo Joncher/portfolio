@@ -79,8 +79,8 @@ function IndexPage() {
                   description="  A Blog site that allows users to engage with small group content"
                   details={[
                     'Built on GatsbyJS framework',
-                    "Built an email mailer using Ruby's Action Mailer",
-                    'Created using SCSS file to specifically apply CSS property',
+                    "Created a user friendly CMS for user to easily add content to site",
+                    "Manage videos and other blog resources for client"
                   ]}
                   onClick={e => handleProjectClick(e)}
                 />
