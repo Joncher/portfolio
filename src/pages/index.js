@@ -12,6 +12,7 @@ import overtrackPic from '../assets/images/Overtrack.png';
 import bbbPic from '../assets/images/BBB.png';
 import simonggPic from '../assets/images/SimonGG.png';
 import profilePic from '../assets/images/profile_pic.png';
+import sgResourcePic from '../assets/images/sg-resource.png'
 import Scroll from '../components/Scroll';
 import ProjectInfo from '../components/ProjectInfo';
 
@@ -71,8 +72,8 @@ function IndexPage() {
               </Modal>
               <div className="col-4 col-12-mobile">
                 <ProjectCard
-                  title="  Pastoral Counseling Center Website"
-                  pic={pccPic}
+                  title=" New Life SG Resources Site"
+                  pic={sgResourcePic}
                   github={null}
                   demo="https://pcc-test.netlify.com/"
                   description="  A website made for a local non-profit counseling center in Flushing,New York"
