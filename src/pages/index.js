@@ -75,7 +75,7 @@ function IndexPage() {
                   title=" New Life SG Resources Site"
                   pic={sgResourcePic}
                   github={null}
-                  demo="https://pcc-test.netlify.com/"
+                  demo="https://nlf-sg-resources.netlify.app/blog/"
                   description="  A website made for a local non-profit counseling center in Flushing,New York"
                   details={[
                     'Built on GatsbyJS framework',
