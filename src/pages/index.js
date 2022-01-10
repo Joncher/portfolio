@@ -76,7 +76,7 @@ function IndexPage() {
                   pic={sgResourcePic}
                   github={null}
                   demo="https://nlf-sg-resources.netlify.app/blog/"
-                  description="  A website made for a local non-profit counseling center in Flushing,New York"
+                  description="  A Blog site that allows users to engage with small group content"
                   details={[
                     'Built on GatsbyJS framework',
                     "Built an email mailer using Ruby's Action Mailer",
