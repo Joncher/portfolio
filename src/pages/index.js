@@ -8,7 +8,7 @@ import SideBar from '../components/Sidebar/Bar.js';
 import ProjectCard from '../components/ProjectCard';
 
 import pccPic from '../assets/images/PCC.png';
-import overtrackPic from '../assets/images/Overtrack.png';
+import woodhavenSmokePic from '../assets/images/woodhaven-smokeshop';
 import bbbPic from '../assets/images/BBB.png';
 import simonggPic from '../assets/images/SimonGG.png';
 import profilePic from '../assets/images/profile_pic.png';
@@ -72,6 +72,21 @@ function IndexPage() {
               </Modal>
               <div className="col-4 col-12-mobile">
                 <ProjectCard
+                  title=" Woodhaven Smokeshop"
+                  pic={woodhavenSmokePic}
+                  github={null}
+                  demo="https://woodhaven-smokeshop.netlify.app/"
+                  description="  A site built for a client to bring more awareness to their business"
+                  details={[
+                    "Built on Astro Web Development framework",
+                    "Constructed site to highest performance & SEO standards",
+                    "Worked with client to provide multiple revisions until contract was completed"
+                  ]}
+                  onClick={e => handleProjectClick(e)}
+                />
+              </div>
+              <div className="col-4 col-12-mobile">
+                <ProjectCard
                   title=" New Life SG Resources Site"
                   pic={sgResourcePic}
                   github={null}
@@ -100,22 +115,6 @@ function IndexPage() {
                   onClick={e => handleProjectClick(e)}
                 />
               </div>
-              <div className="col-4 col-12-mobile">
-                <ProjectCard
-                  title="Overtrack"
-                  pic={overtrackPic}
-                  github="https://github.com/Joncher/overwatch_tracker"
-                  demo="https://www.youtube.com/watch?v=_sblH20usE8&feature=youtu.be"
-                  description="An App that allows users to keep track of Overwatch ranked games and gives match history and profile stats"
-                  details={[
-                    'Designed the front - end with React, Redux, Semantic-UI-React, and Custom CSS',
-                    'Ruby on Rails for the back-end and PostgreSQL for Database Management',
-                    'Utilized Auth JWT and React Router to limit access for authorized users',
-                    'Built personalized charts with Charts.js that update over time as you record more games',
-                  ]}
-                  onClick={e => handleProjectClick(e)}
-                />
-            </div>
           </div>
           </div>
         </section>
